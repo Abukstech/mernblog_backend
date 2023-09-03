@@ -7,7 +7,7 @@ const blogSchema = new mongoose.Schema({
     unique: true,
   },
 
-  Header: String,
+  header: String,
 
   content: {
     type: String,
